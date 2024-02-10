@@ -1,0 +1,89 @@
+body{
+    margin: auto;
+    width: auto;
+    background-color: rgb(83, 83, 216);
+    color: white;
+}
+
+.logo {
+    position: absolute;
+    top: 3%;
+    left: 3%;
+}
+
+.nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 5vh 0;
+}
+
+.nav a {
+    text-decoration: none;
+    color: aqua;
+}
+
+.nav li {
+    margin: 0 2vw;
+}
+
+.logo img {
+    max-width: 50px;
+}
+
+.body {
+    padding: 5vh 0 0 5vw;
+}
+
+.myname {
+    width: 35vw;
+    margin: 0 0 5vh 0;
+}
+
+.learning {
+    width: 35vw;
+}
+
+.button button {
+    padding: 2vh 4vw;
+    font-size: 30px;
+    position: relative;
+    top: 15vh;
+    left: 7vw;
+    background-color: rgb(71, 9, 153);
+    border-radius: 20px;
+    transition: 0.3s ease;
+}
+
+.button button:hover {
+    transform: translateY(-20px);
+}
+
+h3 {
+    position: fixed;
+    bottom: 1vh;
+    right: 30vw;
+}
+
+.footer a{
+    width: 10%;
+    margin: 0 1vw;
+}
+
+.footer a img{
+    max-width: 4vw;
+}
+
+.footer {
+    position: fixed;
+    bottom: 1vh;
+    left: 70vw;
+}
+
+.moi {
+    width: 30%;
+    position: absolute;
+    display: block;
+    left: 50%;
+    box-shadow: 15px 15px 2px rgb(12, 49, 90);
+}
