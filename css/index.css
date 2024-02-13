@@ -20,11 +20,18 @@ body{
 
 .nav a {
     text-decoration: none;
-    color: aqua;
+    color: white;
 }
 
 .nav li {
     margin: 0 2vw;
+    transition: 0.6s;
+    font-size: 26px;
+}
+
+.nav li:hover {
+    text-decoration: underline;
+    color: yellow;
 }
 
 .logo img {
@@ -53,16 +60,11 @@ body{
     background-color: rgb(71, 9, 153);
     border-radius: 20px;
     transition: 0.3s ease;
+    cursor: pointer;
 }
 
 .button button:hover {
     transform: translateY(-20px);
-}
-
-h3 {
-    position: fixed;
-    bottom: 1vh;
-    right: 30vw;
 }
 
 .footer a{
