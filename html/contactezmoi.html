@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/contact.css">
+    <title>Contact</title>
+</head>
+<body>
+    <nav>
+        <a class="logo" href=""><img src="../img/logo-c.webp" alt="C"></a>
+        <ul class="nav">
+            <a href="../accueil.html"><li>Accueil</li></a>
+            <a href="apropos.html"><li>À Propos</li></a>
+            <a href="projets.html"><li>Projets</li></a>
+            <a href="contactezmoi.html"><li>Contactez-moi</li></a>
+            <button onclick="switchToEnglish()" class="language">EN</button>
+        <script>
+            function switchToEnglish() {
+              window.location.href = "contact.html";
+            }
+          </script>
+        </ul>
+    </nav>
+    <div class="body">
+        <div class="contactme">
+        <h3>Contacte-moi avec mail</h3>
+        <a href="mailto:ccfelix2004@gmail.com">ccfelix2004@gmail.com</a>
+            <h3>Appelle-moi</h3>
+            <p>438-872-8104</p>
+            <h3>Contacte-moi sur Linkedin</h3>
+            <a href="https://www.linkedin.com/in/colin-champagne-f%C3%A9lix-349ab02b3/" target="_blank">My Profile</a>
+        </div>
+        <div class="cv">
+            <h2>Télécharge mon Curriculum Vitae</h2>
+            <button onclick="downloadCV()" class="cvdownload">CV</button>
+        </div>
+    </div>
+    <div class="footer" id="footer">
+        <a href="https://github.com/ColexGod" target="_blank"><img src="../img/Github.png" alt="Github"></a>
+        <a href="https://www.linkedin.com/in/colin-champagne-f%C3%A9lix-349ab02b3/" target="_blank"><img src="../img/LinkedIn.png" alt="Linkedin"></a>
+        <a href="mailto:ccfelix2004@gmail.com"><img src="../img/Mail.webp" alt="Mail"></a>
+    </div>
+</body>
+</html>

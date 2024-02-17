@@ -14,16 +14,26 @@
             <a href="about.html"><li>About</li></a>
             <a href="projects.html"><li>Projects</li></a>
             <a href="contact.html"><li>Contact</li></a>
+            <button onclick="switchToFrench()" class="language">FR</button>
+        <script>
+            function switchToFrench() {
+              window.location.href = "contactezmoi.html";
+            }
+          </script>
         </ul>
     </nav>
 <div class="body">
     <div class="contactme">
     <h3>You can contact me with mail</h3>
     <a href="mailto:ccfelix2004@gmail.com">ccfelix2004@gmail.com</a>
-        <h4>Call me</h4>
+        <h3>Call me</h3>
         <p>438-872-8104</p>
-        <h4>Contact me on Linkedin</h4>
+        <h3>Contact me on Linkedin</h3>
         <a href="https://www.linkedin.com/in/colin-champagne-f%C3%A9lix-349ab02b3/" target="_blank">My Profile</a>
+    </div>
+    <div class="cv">
+        <h2>Download my Curriculum Vitae</h2>
+        <button onclick="downloadCV()" class="cvdownload">CV</button>
     </div>
 </div>
     <div class="footer" id="footer">

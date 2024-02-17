@@ -5,6 +5,11 @@ body{
     color: white;
 }
 
+.body {
+    display: flex;
+    justify-content:space-evenly;
+}
+
 .logo {
     position: absolute;
     top: 3%;
@@ -54,7 +59,11 @@ body{
 .footer {
     position: fixed;
     bottom: 1vh;
-    left: 70vw;
+    left: 80vw;
+}
+
+.contactme,.cv {
+    width: 30%;
 }
 
 .contactme {
@@ -63,4 +72,42 @@ body{
 
 .contactme a {
     color: white;
+}
+
+.language {
+    margin: 0 2% 0 0;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.language:hover {
+    background-color: rgb(170, 89, 247);
+    color: white;
+    border: 1px solid white;
+}
+
+.cv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cvdownload {
+    width: 90%;
+    padding: 10px 0 10px 0;
+    font-size: 26px;
+    transition: 0.3s;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+}
+
+.cvdownload:hover {
+    background-color: rgb(170, 89, 247);
+    color: white;
+    border: 2px solid white;
 }

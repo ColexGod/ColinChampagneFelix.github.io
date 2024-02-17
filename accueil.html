@@ -1,33 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <title>Portfolio</title>
+    <script src="/js/langue.js"></script>
 </head>
 <body>
 <nav>
     <a class="logo" href=""><img src="img/logo-c.webp" alt="C"></a>
     <ul class="nav">
-        <a href="index.html"><li>Home</li></a>
-        <a href="html/about.html"><li>About</li></a>
-        <a href="html/projects.html"><li>Projects</li></a>
-        <a href="html/contact.html"><li>Contact</li></a>
-        <button onclick="switchToFrench()" class="language">FR</button>
+        <a href="index.html"><li>Accueil</li></a>
+        <a href="html/apropos.html"><li>À Propos</li></a>
+        <a href="html/projets.html"><li>Projets</li></a>
+        <a href="html/contactezmoi.html"><li>Contactez-moi</li></a>
+        <button onclick="switchToEnglish()" class="language">EN</button>
         <script>
-            function switchToFrench() {
-              window.location.href = "accueil.html";
+            function switchToEnglish() {
+              window.location.href = "index.html";
             }
           </script>
     </ul>
 </nav>
 
 <div class="body">
-<h1>Welcome</h1>
+<h1>Bienvenue</h1>
 <img class="moi" src="img/Moi.JPG" alt="Moi">
-<div class="myname">My name is Colin Champagne-Félix, I'm a new full stack developer based in Montreal, Quebec, Canada.</div>
-<div class="learning">I'm open to learning opportunities so don't hesitate to contact me!</div>
+<div class="myname">Bonjour, je suis Colin Champagne-Félix, développeur web full stack de Montreal, Quebec, Canada.</div>
+<div class="learning">Je suis ouvert aux opportunités d'apprentissage, donc n'hésitez pas à me contacter!</div>
 <div class="button"><a href="html/projects.html"><button>Projects</button></a></div>
 
 <div class="footer" id="footer">
