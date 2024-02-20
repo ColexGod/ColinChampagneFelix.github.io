@@ -79,7 +79,7 @@ body{
 
 .project {
     width: 25%;
-    margin: 5vh 1vw;
+    margin: 5vh auto;
     padding: 0 3vw;
     text-align: center;
 }
@@ -126,4 +126,107 @@ body{
     background-color: rgb(170, 89, 247);
     color: white;
     border: 1px solid white;
+}
+
+.header {
+    display: flex;
+}
+
+@media only screen and (min-width:768px) and (max-width: 1024px){
+    .project {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    .projects,.projects2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .project p {
+        width: 50%;
+        align-self: center;
+    }
+    .media {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 25px;
+        
+    }
+    .media img {
+        align-self: end;
+    }
+    .media a {
+        width: 25px;
+    }
+    .nav a:last-of-type {
+        width: 25px;
+    }
+    .nav li {
+        margin-right: 50px;
+    }
+    .nav {
+        justify-content: center;
+    }
+    .language {
+        position: fixed;
+        right: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .project {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    .projects,.projects2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .project p {
+        width: 50%;
+        align-self: center;
+    }
+    .nav li {
+        font-size: 16px;
+    }
+    .media {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 25px;
+        
+    }
+    .media img {
+        align-self: end;
+    }
+    .media a {
+        width: 25px;
+    }
+    .nav a:last-of-type {
+        width: 25px;
+    }
+    .nav {
+        justify-content: center;
+    }
+    .language {
+        position: fixed;
+        bottom: 120px;
+        right: 20px;
+        width: 25px;
+        height: 25px;
+        font-size: 12px;
+        margin: 0;
+    }
+    .header a:first-of-type, .header a:first-of-type+a,.header a:first-of-type+a+a {
+        width: 70px;
+    }
+    .header a:first-of-type+a+a+a {
+        width: 100px;
+    }
 }

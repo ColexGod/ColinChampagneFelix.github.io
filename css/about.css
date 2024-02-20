@@ -104,3 +104,56 @@ body{
     color: white;
     border: 1px solid white;
 }
+
+@media only screen and (min-width:768px) and (max-width: 1024px){
+    .skills {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .hobbies {
+        margin: 1% 0 0 10%;
+    }
+    .skills div {  
+        margin: 5px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        position: fixed;
+        right: 30px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .skills {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width: 50px;
+        margin: 0 10% 0 0;
+    }
+    .hobbies {
+        margin: 1% 0 0 3%;
+    }
+    .hobbies h3, .hobbies p {
+        margin-left: 5%;
+    }
+    .skills div {  
+        margin: 5px;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        position: fixed;
+        right: 20px;
+    }
+    .nav li {
+        font-size: 18px;
+    }
+    .language {
+        width: 25px;
+        height: 25px;
+        font-size: 12px;
+    }
+}

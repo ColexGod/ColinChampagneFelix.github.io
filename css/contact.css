@@ -95,6 +95,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .cvdownload {
@@ -104,10 +105,25 @@ body{
     transition: 0.3s;
     border: 2px solid lightgrey;
     border-radius: 20px;
+    color: white;
+    background-color: rgb(71, 9, 153);
+    text-align: center;
+    text-decoration: none;
 }
 
 .cvdownload:hover {
     background-color: rgb(170, 89, 247);
     color: white;
     border: 2px solid white;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav li {
+        font-size: 18px;
+    }
+    .language {
+        width: 25px;
+        height: 25px;
+        font-size: 12px;
+    }
 }
